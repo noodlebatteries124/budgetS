@@ -13,7 +13,7 @@ let playbackHistory = [];
 
 function init() {
     const taskContainer = document.getElementById("player");
-    // Updated HTML in your init() function
+    
 taskContainer.innerHTML = `
     <div class="music-card">
         <div class="search-container">
