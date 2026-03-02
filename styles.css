@@ -1,0 +1,204 @@
+.search-section {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.dropdown-content {
+    position: absolute;
+    background: white;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    z-index: 10;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+}
+
+.search-item {
+    padding: 10px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.search-item:hover {
+    background-color: #f0f0f0;
+}
+
+/* General Page Background */
+body {
+    background-color: #121212; /* Deep Black */
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* The Player Card */
+.music-card {
+    background-color: #181818; /* Lighter Gray */
+    padding: 30px;
+    border-radius: 12px;
+    width: 380px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+/* Search Section */
+.search-container {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 10px 15px;
+    background: #282828;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.dropdown {
+    position: absolute;
+    width: 100%;
+    background: #282828;
+    border-radius: 8px;
+    margin-top: 5px;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 10;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.search-item {
+    padding: 12px;
+    cursor: pointer;
+    text-align: left;
+    transition: background 0.2s;
+}
+
+.search-item:hover {
+    background: #3e3e3e;
+}
+
+#song-title {
+    margin: 10px 0 5px 0;
+    font-size: 1.5rem;
+}
+
+#artist-name {
+    color: #b3b3b3;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.progress-container {
+    margin: 20px 0;
+}
+
+#progress {
+    width: 100%;
+    cursor: pointer;
+    accent-color: #393939;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.main-controls {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    background: none;
+    border: none;
+    color: #b3b3b3;
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 0.2s, transform 0.1s;
+}
+
+
+.play-trigger {
+    background-color: white;
+    color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-trigger:hover {
+    transform: scale(1.20);
+    background-color: #f0f0f0;
+}
+
+.secondary-btn {
+    font-size: 0.7rem;
+    color: #1DB954;
+}
+
+.icon-btn {
+    font-size: 1.2rem;
+}
+
+.progress-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.time-label {
+    font-size: 0.75rem;
+    color: #b3b3b3;
+    min-width: 35px; /* Prevents layout jump when numbers change */
+}
+
+#progress {
+    flex-grow: 1; /* Makes the slider take up the middle space */
+    cursor: pointer;
+    accent-color: #1DB954;
+}
+
+.volume-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #282828; /* Subtle separator line */
+}
+
+.volume-icon {
+    font-size: 0.7rem;
+    color: #b3b3b3;
+    text-transform: uppercase;
+}
+
+#volumeSlider {
+    width: 80px;
+    height: 4px;
+    cursor: pointer;
+    accent-color: #b3b3b3; /* Gray instead of green so it doesn't distract */
+}
+
+#volumeLabel {
+    font-size: 0.7rem;
+    color: #b3b3b3;
+    min-width: 35px;
+}
