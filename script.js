@@ -3,7 +3,8 @@ const playlist = [
     { title: "Ice king with the heat", src: "Ice king with the heat (full version) [CpgmJ-IxOvo].mp3" },
     { title: "Admiring you", src: "Hakari Dance Theme「Admiring You」Private Pure Love Train (Idle Death Gamble) Jujutsu Kaisen Fan OST [DrHL4TzX6t8].mp3" },
     { title: "Reincarnation apple", src: "ピノキオピー - 転生林檎 feat. 初音ミク ⧸ Reincarnation Apple [LYWP8HtgeLQ].mp3" },
-    { title: "Muffin", src: "BadBoyHalo, CG5, Hyper Potions - MUFFIN (feat. Skeppy, CaptainPuffy) (Official Music Video) [GXqTIbJwwDk].mp3" }
+    { title: "Muffin", src: "BadBoyHalo, CG5, Hyper Potions - MUFFIN (feat. Skeppy, CaptainPuffy) (Official Music Video) [GXqTIbJwwDk].mp3" },
+    { title: "Looping the rooms", src: "ループザルーム feat. 初音ミク ⧸ ＂Looping the Rooms＂ ft. Hatsune Miku [icBDYkfxpMs].mp3" }
 ];
 
 let currentTrackIndex = 0;
