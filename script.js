@@ -13,7 +13,9 @@ const playlist = [
     { title: "Ai Dua Em Ve (Low cortisol song) - TIA", src: "songs/TIA - Ai Đưa Em Về ｜ Official M⧸V ｜ Ft. Lê Thiện Hiếu (Low Cortisol Song) [apqe_u3VJQ4].mp3" },
     { title: "Poster Boy - 2Hollis", src: "songs/2hollis - poster boy (official audio) [H2vTrHc-OGk].mp3" },
     { title: "Montagem Hikari - 0to8", src: "songs/BellyJay - MONTAGEM HIKARI [YO-6FsfdXbo].mp3" },
-    { title: "My Jealousy - vivi baby, ovg!", src: "songs/vivi baby, ovg! - MY JEALOUSY (Lyrics) [yGJNdeJTi00].mp3" }
+    { title: "My Jealousy - vivi baby, ovg!", src: "songs/vivi baby, ovg! - MY JEALOUSY (Lyrics) [yGJNdeJTi00].mp3" },
+    { title: "Play Date - Melanie Martinez", src: "songs/Melanie Martinez - Play Date [Official Lyric Video] [kknKs7cAcO8].mp3" },
+    { title: "Play Date (Slowed + Reverb) - Melanie Martinez", src: "songs/melanie martinez- play date [slowed + reverb] [quSSfB2AICc].mp3" }
 ];
 
 let currentTrackIndex = 0;
