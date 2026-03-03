@@ -1,16 +1,16 @@
 const playlist = [
-    { title: "Aishiteitanoni", src: "【初音ミク】　あいしていたのに　【オリジナル】 [R_g0M5Zmqhg].mp3" },
-    { title: "Ice king with the heat", src: "Ice king with the heat (full version) [CpgmJ-IxOvo].mp3" },
-    { title: "Admiring you", src: "Hakari Dance Theme「Admiring You」Private Pure Love Train (Idle Death Gamble) Jujutsu Kaisen Fan OST [DrHL4TzX6t8].mp3" },
-    { title: "Reincarnation apple", src: "ピノキオピー - 転生林檎 feat. 初音ミク ⧸ Reincarnation Apple [LYWP8HtgeLQ].mp3" },
-    { title: "Muffin", src: "BadBoyHalo, CG5, Hyper Potions - MUFFIN (feat. Skeppy, CaptainPuffy) (Official Music Video) [GXqTIbJwwDk].mp3" },
-    { title: "Looping the rooms", src: "ループザルーム feat. 初音ミク ⧸ ＂Looping the Rooms＂ ft. Hatsune Miku [icBDYkfxpMs].mp3" },
-    { title: "Cool for the summer", src: "Demi Lovato - Cool for the Summer (Lyrics) got my mind on your body [h2GQVlMkFiE].mp3" },
-    { title: "Pass on - Gregor", src: "[Limbus Company - ost] 사라지네 -  ver.그레고르 [SupBa5JJuO0].mp3" },
-    { title: "Fragile - Laufey", src: "Laufey - Fragile (Official Video) [zs7u0qG9pNI].mp3" },
-    { title: "Pass on - Heathcliff", src: "Pass on (Vocal. Heathcliff) [xaYyrhdzO30].mp3" },
-    { title: "From the start - Laufey", src: "Laufey - From The Start (Official Music Video) [lSD_L-xic9o].mp3" },
-    { title: "Ai Dua Em Ve (Low cortisol song)", src: "TIA - Ai Đưa Em Về ｜ Official M⧸V ｜ Ft. Lê Thiện Hiếu (Low Cortisol Song) [apqe_u3VJQ4].mp3" }
+    { title: "Aishiteitanoni", src: "songs/【初音ミク】　あいしていたのに　【オリジナル】 [R_g0M5Zmqhg].mp3" },
+    { title: "Ice king with the heat", src: "songs/Ice king with the heat (full version) [CpgmJ-IxOvo].mp3" },
+    { title: "Admiring you", src: "songs/Hakari Dance Theme「Admiring You」Private Pure Love Train (Idle Death Gamble) Jujutsu Kaisen Fan OST [DrHL4TzX6t8].mp3" },
+    { title: "Reincarnation apple", src: "songs/ピノキオピー - 転生林檎 feat. 初音ミク ⧸ Reincarnation Apple [LYWP8HtgeLQ].mp3" },
+    { title: "Muffin", src: "songs/BadBoyHalo, CG5, Hyper Potions - MUFFIN (feat. Skeppy, CaptainPuffy) (Official Music Video) [GXqTIbJwwDk].mp3" },
+    { title: "Looping the rooms", src: "songs/ループザルーム feat. 初音ミク ⧸ ＂Looping the Rooms＂ ft. Hatsune Miku [icBDYkfxpMs].mp3" },
+    { title: "Cool for the summer", src: "songs/Demi Lovato - Cool for the Summer (Lyrics) got my mind on your body [h2GQVlMkFiE].mp3" },
+    { title: "Pass on - Gregor", src: "songs/[Limbus Company - ost] 사라지네 -  ver.그레고르 [SupBa5JJuO0].mp3" },
+    { title: "Fragile - Laufey", src: "songs/Laufey - Fragile (Official Video) [zs7u0qG9pNI].mp3" },
+    { title: "Pass on - Heathcliff", src: "songs/Pass on (Vocal. Heathcliff) [xaYyrhdzO30].mp3" },
+    { title: "From the start - Laufey", src: "songs/Laufey - From The Start (Official Music Video) [lSD_L-xic9o].mp3" },
+    { title: "Ai Dua Em Ve (Low cortisol song)", src: "songs/TIA - Ai Đưa Em Về ｜ Official M⧸V ｜ Ft. Lê Thiện Hiếu (Low Cortisol Song) [apqe_u3VJQ4].mp3" }
 ];
 
 let currentTrackIndex = 0;
