@@ -15,7 +15,13 @@ const playlist = [
     { title: "Montagem Hikari - 0to8", src: "songs/BellyJay - MONTAGEM HIKARI [YO-6FsfdXbo].mp3" },
     { title: "My Jealousy - vivi baby, ovg!", src: "songs/vivi baby, ovg! - MY JEALOUSY (Lyrics) [yGJNdeJTi00].mp3" },
     { title: "Play Date - Melanie Martinez", src: "songs/Melanie Martinez - Play Date [Official Lyric Video] [kknKs7cAcO8].mp3" },
-    { title: "Play Date (Slowed + Reverb) - Melanie Martinez", src: "songs/melanie martinez- play date [slowed + reverb] [quSSfB2AICc].mp3" }
+    { title: "Cry - Cigarettes After Sex", src: "songs/Cry - Cigarettes After Sex [3XqqkrJENB4].mp3" },
+    { title: "Let Down - RadioHead", src: "songs/Let Down (Remastered) [ZVgHPSyEIqk].mp3" },
+    { title: "world.execute(me) - Mili", src: "songs/Mili - world.execute(me); [ESx_hy1n7HA].mp3" },
+    { title: "Porter Robinson & Madeon - Shelter", src: "songs/Porter Robinson & Madeon - Shelter (Official Audio) [HQnC1UHBvWA].mp3" },
+    { title: "She & Him - I Thought I Saw Your Face Today", src: "songs/She & Him - I Thought I Saw Your Face Today (Official Lyric Video) [pyGU-UudvrM].mp3" },
+    { title: "Sparkle 「スパークル」「Movie Version」- Radwimps", src: "songs/YOASOBI「あの夢をなぞって」 Official Music Video [sAuEeM_6zpk].mp3Sparkle 「スパークル」「Movie Version」「君の名は。」 [tpH8TEkKQI4].mp3" },
+    { title: "Tracing That Dream - YOASOBI", src: "songs/YOASOBI「あの夢をなぞって」 Official Music Video [sAuEeM_6zpk].mp3" }
 ];
 
 let currentTrackIndex = 0;
