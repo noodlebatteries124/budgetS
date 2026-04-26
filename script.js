@@ -20,7 +20,7 @@ const playlist = [
     { title: "world.execute(me) - Mili", src: "songs/Mili - world.execute(me); [ESx_hy1n7HA].mp3" },
     { title: "Porter Robinson & Madeon - Shelter", src: "songs/Porter Robinson & Madeon - Shelter (Official Audio) [HQnC1UHBvWA].mp3" },
     { title: "She & Him - I Thought I Saw Your Face Today", src: "songs/She & Him - I Thought I Saw Your Face Today (Official Lyric Video) [pyGU-UudvrM].mp3" },
-    { title: "Sparkle 「スパークル」「Movie Version」- Radwimps", src: "songs/YOASOBI「あの夢をなぞって」 Official Music Video [sAuEeM_6zpk].mp3Sparkle 「スパークル」「Movie Version」「君の名は。」 [tpH8TEkKQI4].mp3" },
+    { title: "Sparkle 「スパークル」「Movie Version」- Radwimps", src: "songs/Sparkle 「スパークル」「Movie Version」「君の名は。」 [tpH8TEkKQI4].mp3" },
     { title: "Tracing That Dream - YOASOBI", src: "songs/YOASOBI「あの夢をなぞって」 Official Music Video [sAuEeM_6zpk].mp3" }
 ];
 
