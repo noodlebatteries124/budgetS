@@ -21,7 +21,9 @@ const playlist = [
     { title: "Porter Robinson & Madeon - Shelter", src: "songs/Porter Robinson & Madeon - Shelter (Official Audio) [HQnC1UHBvWA].mp3" },
     { title: "She & Him - I Thought I Saw Your Face Today", src: "songs/She & Him - I Thought I Saw Your Face Today (Official Lyric Video) [pyGU-UudvrM].mp3" },
     { title: "Sparkle 「スパークル」「Movie Version」- Radwimps", src: "songs/Sparkle 「スパークル」「Movie Version」「君の名は。」 [tpH8TEkKQI4].mp3" },
-    { title: "Tracing That Dream - YOASOBI", src: "songs/YOASOBI「あの夢をなぞって」 Official Music Video [sAuEeM_6zpk].mp3" }
+    { title: "Tracing That Dream - YOASOBI", src: "songs/YOASOBI「あの夢をなぞって」 Official Music Video [sAuEeM_6zpk].mp3" },
+    { title: "Imposter Syndrome - Sidney Gish", src: "songs/Impostor Syndrome [GwSSrwryxN0].mp3" },
+    { title: "Big Time Rush - Worldwide", src: "songs/Big Time Rush - Worldwide (Official Video) [2EDCpDXMowc].mp3" }
 ];
 
 let currentTrackIndex = 0;
