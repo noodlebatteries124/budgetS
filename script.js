@@ -23,7 +23,10 @@ const playlist = [
     { title: "Sparkle 「スパークル」「Movie Version」- Radwimps", src: "songs/Sparkle 「スパークル」「Movie Version」「君の名は。」 [tpH8TEkKQI4].mp3" },
     { title: "Tracing That Dream - YOASOBI", src: "songs/YOASOBI「あの夢をなぞって」 Official Music Video [sAuEeM_6zpk].mp3" },
     { title: "Imposter Syndrome - Sidney Gish", src: "songs/Impostor Syndrome [GwSSrwryxN0].mp3" },
-    { title: "Big Time Rush - Worldwide", src: "songs/Big Time Rush - Worldwide (Official Video) [2EDCpDXMowc].mp3" }
+    { title: "Big Time Rush - Worldwide", src: "songs/Big Time Rush - Worldwide (Official Video) [2EDCpDXMowc].mp3" },
+    { title: "R.I.P - Language of the Lost ft. Kasane Teto SV (SynthV Original Song)", src: "songs/R.I.P - Language of the Lost ft. Kasane Teto SV (SynthV Original Song) [1xEfMnXyGkA].mp3" },
+    { title: "Would You Fall In Love With Me Again - EPIC the musical", src: "songs/Would You Fall In Love With Me Again (but they overlap at the end) [bNs8vJnEbyY].mp3" },
+    { title: "음율 (UmYull) X The Spike Cross - 'See you tomorrow, Sunset'", src: "songs/음율 (UmYull) X The Spike Cross - 'See you tomorrow, Sunset' [EfhkFhOMJkQ].mp3" }
 ];
 
 let currentTrackIndex = 0;
