@@ -26,7 +26,10 @@ const playlist = [
     { title: "Big Time Rush - Worldwide", src: "songs/Big Time Rush - Worldwide (Official Video) [2EDCpDXMowc].mp3" },
     { title: "R.I.P - Language of the Lost ft. Kasane Teto SV (SynthV Original Song)", src: "songs/R.I.P - Language of the Lost ft. Kasane Teto SV (SynthV Original Song) [1xEfMnXyGkA].mp3" },
     { title: "Would You Fall In Love With Me Again - EPIC the musical", src: "songs/Would You Fall In Love With Me Again (but they overlap at the end) [bNs8vJnEbyY].mp3" },
+    { title: "Hour girl (unc lei heng)", src: "songs/小时姑娘 - 愛殤 ｜ 清風過 曳燭光 獨舞無人欣賞｜ [動態歌詞 Lyric Video] [FFYPfn8sZ18].mp3" },
+    { title: "張遠 - 嘉賓 (taxi vibe)", src: "songs/張遠 - 嘉賓【高音質｜動態歌詞Lyrics】♫『感謝你特別邀請，來見證你的愛情。』Zhang Yuan-Khách [jPzkNvWOcGc].mp3" },
     { title: "음율 (UmYull) X The Spike Cross - 'See you tomorrow, Sunset'", src: "songs/음율 (UmYull) X The Spike Cross - 'See you tomorrow, Sunset' [EfhkFhOMJkQ].mp3" }
+    
 ];
 
 let currentTrackIndex = 0;
