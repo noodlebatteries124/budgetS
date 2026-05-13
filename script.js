@@ -28,6 +28,12 @@ const playlist = [
     { title: "Would You Fall In Love With Me Again - EPIC the musical", src: "songs/Would You Fall In Love With Me Again (but they overlap at the end) [bNs8vJnEbyY].mp3" },
     { title: "Hour girl (unc lei heng)", src: "songs/小时姑娘 - 愛殤 ｜ 清風過 曳燭光 獨舞無人欣賞｜ [動態歌詞 Lyric Video] [FFYPfn8sZ18].mp3" },
     { title: "張遠 - 嘉賓 (taxi vibe)", src: "songs/張遠 - 嘉賓【高音質｜動態歌詞Lyrics】♫『感謝你特別邀請，來見證你的愛情。』Zhang Yuan-Khách [jPzkNvWOcGc].mp3" },
+    { title: "Avril Lavigne - Here's to Never Growing Up", src: "songs/Avril Lavigne - Here's to Never Growing Up (Official Video) [sXd2WxoOP5g].mp3" },
+    { title: "Cry for Me x Hit the Jackpot x Bang Bang Bang x Judas - Spikecation", src: "songs/Cry for Me x Hit the Jackpot x Bang Bang Bang x Judas [ylUE5szSpew].mp3" },
+    { title: "HELP!! - Kobo Kaneru", src: "songs/HELP!! [z2tDtdHHAHg].mp3" },
+    { title: "Ripples Of Past Reverie - HOYO-MiX", src: "songs/Ripples Of Past Reverie - HOYO-MiX ｜ Cassie Wei ｜ Official English Full Lyrics Honkai Star Rail 3.7 [qtacWBS_vSo].mp3" },
+    { title: "ZAKO - Hiiragi Magnetite", src: "songs/雑魚 ⧸ 亞北ネル [kqj7b59D85Y].mp3" },
+    { title: "Katy Perry - Teenage Dream", src: "songs/Katy Perry - Teenage Dream (Official Music Video) [98WtmW-lfeE].mp3" },
     { title: "음율 (UmYull) X The Spike Cross - 'See you tomorrow, Sunset'", src: "songs/음율 (UmYull) X The Spike Cross - 'See you tomorrow, Sunset' [EfhkFhOMJkQ].mp3" }
     
 ];
@@ -36,6 +42,8 @@ let currentTrackIndex = 0;
 let isPlaying = false;
 let isLooping = false;
 let playbackHistory = [];
+let recentlyPlayed = [];
+const RECENT_LIMIT = 7;
 
 function init() {
     const taskContainer = document.getElementById("player");
@@ -90,8 +98,30 @@ taskContainer.innerHTML = `
     };
 
     const audioPlayer = document.getElementById("main-audio");
-    audioPlayer.onended = () => { if(!isLooping) playNext(true); };
+    audioPlayer.addEventListener("ended", () => {
+        if (!isLooping) {
+            playNext(true);
+        }
+    });
+    
+    if ('mediaSession' in navigator) {
 
+        navigator.mediaSession.setActionHandler('nexttrack', () => {
+            playNext(true);
+        });
+
+        navigator.mediaSession.setActionHandler('previoustrack', () => {
+            playPrevious();
+        });
+
+        navigator.mediaSession.setActionHandler('play', () => {
+            togglePlay();
+        });
+
+        navigator.mediaSession.setActionHandler('pause', () => {
+            togglePlay();
+        });
+    }
     setupSearch();
     setupProgress();
     setupVolume();
@@ -105,7 +135,14 @@ function loadSong(index, shouldPlay = true) {
 
     audioPlayer.src = song.src;
     titleLabel.textContent = song.title;
-    
+
+    if ('mediaSession' in navigator) {
+    navigator.mediaSession.metadata = new MediaMetadata({
+        title: song.title,
+        artist: song.artist || "Unknown Artist",
+        album: song.album || "My Playlist",        
+        });
+    }
     if (isPlaying || shouldPlay) {
         audioPlayer.play();
         isPlaying = true;
@@ -165,19 +202,62 @@ function togglePlay() {
     }
 }
 
+// function playNext(isShuffle = true) {
+//     playbackHistory.push(currentTrackIndex);
+//     if (playbackHistory.length > 10) playbackHistory.shift();
+
+//     if (isShuffle) {
+//         let nextIndex;
+//         do {
+//             nextIndex = Math.floor(Math.random() * playlist.length);
+//         } while (nextIndex === currentTrackIndex);
+//         currentTrackIndex = nextIndex;
+//     } else {
+//         currentTrackIndex = (currentTrackIndex + 1) % playlist.length;
+//     }
+//     loadSong(currentTrackIndex);
+// }
 function playNext(isShuffle = true) {
     playbackHistory.push(currentTrackIndex);
-    if (playbackHistory.length > 10) playbackHistory.shift();
+
+    if (playbackHistory.length > 15) {
+        playbackHistory.shift();
+    }
 
     if (isShuffle) {
-        let nextIndex;
-        do {
-            nextIndex = Math.floor(Math.random() * playlist.length);
-        } while (nextIndex === currentTrackIndex);
-        currentTrackIndex = nextIndex;
+        let availableIndexes = [];
+
+        for (let i = 0; i < playlist.length; i++) {
+            if (
+                i !== currentTrackIndex &&
+                !recentlyPlayed.includes(i)
+            ) {
+                availableIndexes.push(i);
+            }
+        }
+
+        if (availableIndexes.length === 0) {
+            recentlyPlayed = [];
+            availableIndexes = playlist
+                .map((_, i) => i)
+                .filter(i => i !== currentTrackIndex);
+        }
+
+        const randomPos = Math.floor(Math.random() * availableIndexes.length);
+
+        currentTrackIndex = availableIndexes[randomPos];
+
+        recentlyPlayed.push(currentTrackIndex);
+
+        if (recentlyPlayed.length > RECENT_LIMIT) {
+            recentlyPlayed.shift();
+        }
+
     } else {
-        currentTrackIndex = (currentTrackIndex + 1) % playlist.length;
+        currentTrackIndex =
+            (currentTrackIndex + 1) % playlist.length;
     }
+
     loadSong(currentTrackIndex);
 }
 
