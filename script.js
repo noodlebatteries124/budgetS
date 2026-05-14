@@ -34,6 +34,8 @@ const playlist = [
     { title: "Ripples Of Past Reverie - HOYO-MiX", src: "songs/Ripples Of Past Reverie - HOYO-MiX ｜ Cassie Wei ｜ Official English Full Lyrics Honkai Star Rail 3.7 [qtacWBS_vSo].mp3" },
     { title: "ZAKO - Hiiragi Magnetite", src: "songs/雑魚 ⧸ 亞北ネル [kqj7b59D85Y].mp3" },
     { title: "Katy Perry - Teenage Dream", src: "songs/Katy Perry - Teenage Dream (Official Music Video) [98WtmW-lfeE].mp3" },
+    { title: "[FULL VER] Kokuhaku 告白 ｜｜ Confession ｜｜ N25 x Miku", src: "songs/[FULL VER] Kokuhaku 告白 ｜｜ Confession ｜｜ N25 x Miku [PJSK Lyrics] ｜｜ Mizu7 song [LP2_Gn5nwt0].mp3" },
+    { title: "[FULL VER] 熱異常 (Heat Abnormal) ⧸ Covered by 25時", src: "songs/[FULL VER] 熱異常 (Heat Abnormal) ⧸ Covered by 25時、ナイトコードで。 × KAITO プロセカ 歌詞 COLOR CODED LYRICS [1LiA6rhnCdQ].mp3" },
     { title: "음율 (UmYull) X The Spike Cross - 'See you tomorrow, Sunset'", src: "songs/음율 (UmYull) X The Spike Cross - 'See you tomorrow, Sunset' [EfhkFhOMJkQ].mp3" }
     
 ];
