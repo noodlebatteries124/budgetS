@@ -46,7 +46,10 @@ const playlist = [
     { title: "Mechanical Theseus ｜ Kasane Teto", src: "songs/Mechanical Theseus ｜ Kasane Teto [Rh8uVa8p8hw].mp3" },
     { title: "Nightcore - Wolf In Sheep's Clothing", src: "songs/Nightcore - Wolf In Sheep's Clothing (Set It Off) - (Lyrics) [Jvl2e6X6PA4].mp3" },
     { title: "Nightcore - Angel With A Shotgun", src: "songs/Nightcore - Angel With A Shotgun [cvaIgq5j2Q8].mp3" },
-    { title: "Yorushika - Say it", src: "songs/ヨルシカ - 言って。(Music Video) [F64yFFnZfkI].mp3" }
+    { title: "Yorushika - Say it", src: "songs/ヨルシカ - 言って。(Music Video) [F64yFFnZfkI].mp3" },
+    { title: "ささやかな祈り - Rice shower (Full ver.)", src: "songs/ささやかな祈り [Cs70yKJmUvs].mp3" },
+    { title: "ロミオとシンデレラ ⧸ doriko - Remix ver.【covered by nyamura]", src: "songs/ロミオとシンデレラ ⧸ doriko - Remix ver.【covered by nyamura】 [mQgguvks_KA].mp3" },
+    { title: "Yoru ni Kakeru - YOASOBI", src: "songs/夜に駆ける [mJ1N7-HyH1A].mp3" }
 ];
 
 let currentTrackIndex = 0;
