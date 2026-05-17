@@ -36,8 +36,17 @@ const playlist = [
     { title: "Katy Perry - Teenage Dream", src: "songs/Katy Perry - Teenage Dream (Official Music Video) [98WtmW-lfeE].mp3" },
     { title: "[FULL VER] Kokuhaku 告白 ｜｜ Confession ｜｜ N25 x Miku", src: "songs/[FULL VER] Kokuhaku 告白 ｜｜ Confession ｜｜ N25 x Miku [PJSK Lyrics] ｜｜ Mizu7 song [LP2_Gn5nwt0].mp3" },
     { title: "[FULL VER] 熱異常 (Heat Abnormal) ⧸ Covered by 25時", src: "songs/[FULL VER] 熱異常 (Heat Abnormal) ⧸ Covered by 25時、ナイトコードで。 × KAITO プロセカ 歌詞 COLOR CODED LYRICS [1LiA6rhnCdQ].mp3" },
-    { title: "음율 (UmYull) X The Spike Cross - 'See you tomorrow, Sunset'", src: "songs/음율 (UmYull) X The Spike Cross - 'See you tomorrow, Sunset' [EfhkFhOMJkQ].mp3" }
-    
+    { title: "음율 (UmYull) X The Spike Cross - 'See you tomorrow, Sunset'", src: "songs/음율 (UmYull) X The Spike Cross - 'See you tomorrow, Sunset' [EfhkFhOMJkQ].mp3" },
+    { title: "弥渡山歌（Midu Echoing）", src: "songs/弥渡山歌（Midu Echoing） [eIQqtWOA12c].mp3" },
+    { title: "メズマライザー Mesmerizer (piano)", src: "songs/メズマライザー (piano) [F1yq_J7c6bM].mp3" },
+    { title: "メズマライザー ⧸ 初音ミク・重音テトSV (Mesmerizer)", src: "songs/メズマライザー ⧸ 初音ミク・重音テトSV [19y8YTbvri8].mp3" },
+    { title: "いますぐ輪廻 (Retry Now) (piano)", src: "songs/いますぐ輪廻 (Retry Now) (piano) [dniYT85NwPw].mp3" },
+    { title: "いますぐ輪廻 ⧸ 初音ミク (Retry Now)", src: "songs/いますぐ輪廻 ⧸ 初音ミク [3iUgKH8c7p4].mp3" },
+    { title: "マシュマリー ⧸ feat.初音ミク (Marshmary)", src: "songs/マシュマリー ⧸ feat.初音ミク [qtuX4cHk-vE].mp3" },
+    { title: "Mechanical Theseus ｜ Kasane Teto", src: "songs/Mechanical Theseus ｜ Kasane Teto [Rh8uVa8p8hw].mp3" },
+    { title: "Nightcore - Wolf In Sheep's Clothing", src: "songs/Nightcore - Wolf In Sheep's Clothing (Set It Off) - (Lyrics) [Jvl2e6X6PA4].mp3" },
+    { title: "Nightcore - Angel With A Shotgun", src: "songs/Nightcore - Angel With A Shotgun [cvaIgq5j2Q8].mp3" },
+    { title: "Yorushika - Say it", src: "songs/ヨルシカ - 言って。(Music Video) [F64yFFnZfkI].mp3" }
 ];
 
 let currentTrackIndex = 0;
