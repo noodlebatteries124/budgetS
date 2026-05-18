@@ -49,7 +49,8 @@ const playlist = [
     { title: "Yorushika - Say it", src: "songs/ヨルシカ - 言って。(Music Video) [F64yFFnZfkI].mp3" },
     { title: "ささやかな祈り - Rice shower (Full ver.)", src: "songs/ささやかな祈り [Cs70yKJmUvs].mp3" },
     { title: "ロミオとシンデレラ ⧸ doriko - Remix ver.【covered by nyamura]", src: "songs/ロミオとシンデレラ ⧸ doriko - Remix ver.【covered by nyamura】 [mQgguvks_KA].mp3" },
-    { title: "Yoru ni Kakeru - YOASOBI", src: "songs/夜に駆ける [mJ1N7-HyH1A].mp3" }
+    { title: "Yoru ni Kakeru - YOASOBI", src: "songs/夜に駆ける [mJ1N7-HyH1A].mp3" },
+    { title: "Jane! - The Long Faces", src: "songs/Jane! [HydkjjDNTmY].mp3" }
 ];
 
 let currentTrackIndex = 0;
