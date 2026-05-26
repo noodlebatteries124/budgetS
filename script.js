@@ -53,7 +53,8 @@ const playlist = [
     { title: "Jane! - The Long Faces", src: "songs/Jane! [HydkjjDNTmY].mp3" },
     { title: "Laufey - Goddess", src: "songs/Laufey - Goddess (Official Lyric Video With Chords) [JE82zRNIC8U].mp3" },
     { title: "Hey Violet - Hoodie", src: "songs/Hey Violet - Hoodie [GNtIvGrqAZE].mp3" },
-    { title: "Not Another Song About Love - Hollywood Ending", src: "songs/Not Another Song About Love [y_JreyZc3pk].mp3" }
+    { title: "Not Another Song About Love - Hollywood Ending", src: "songs/Not Another Song About Love [y_JreyZc3pk].mp3" },
+    { title: "Hoodie x Hoodie Full Version｜ Hirayart", src: "songs/Hoodie x Hoodie Full Version from Tiktok ｜ Hirayart [jkvuPJRJrow].mp3" }
 ];
 
 let currentTrackIndex = 0;
