@@ -51,7 +51,9 @@ const playlist = [
     { title: "ロミオとシンデレラ ⧸ doriko - Remix ver.【covered by nyamura]", src: "songs/ロミオとシンデレラ ⧸ doriko - Remix ver.【covered by nyamura】 [mQgguvks_KA].mp3" },
     { title: "Yoru ni Kakeru - YOASOBI", src: "songs/夜に駆ける [mJ1N7-HyH1A].mp3" },
     { title: "Jane! - The Long Faces", src: "songs/Jane! [HydkjjDNTmY].mp3" },
-    { title: "Laufey - Goddess", src: "songs/Laufey - Goddess (Official Lyric Video With Chords) [JE82zRNIC8U].mp3" }
+    { title: "Laufey - Goddess", src: "songs/Laufey - Goddess (Official Lyric Video With Chords) [JE82zRNIC8U].mp3" },
+    { title: "Hey Violet - Hoodie", src: "songs/Hey Violet - Hoodie [GNtIvGrqAZE].mp3" },
+    { title: "Not Another Song About Love - Hollywood Ending", src: "songs/Not Another Song About Love [y_JreyZc3pk].mp3" }
 ];
 
 let currentTrackIndex = 0;
