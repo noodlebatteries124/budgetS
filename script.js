@@ -54,7 +54,10 @@ const playlist = [
     { title: "Laufey - Goddess", src: "songs/Laufey - Goddess (Official Lyric Video With Chords) [JE82zRNIC8U].mp3" },
     { title: "Hey Violet - Hoodie", src: "songs/Hey Violet - Hoodie [GNtIvGrqAZE].mp3" },
     { title: "Not Another Song About Love - Hollywood Ending", src: "songs/Not Another Song About Love [y_JreyZc3pk].mp3" },
-    { title: "Hoodie x Hoodie Full Version｜ Hirayart", src: "songs/Hoodie x Hoodie Full Version from Tiktok ｜ Hirayart [jkvuPJRJrow].mp3" }
+    { title: "Hoodie x Hoodie Full Version｜ Hirayart", src: "songs/Hoodie x Hoodie Full Version from Tiktok ｜ Hirayart [jkvuPJRJrow].mp3" },
+    { title: "this is what falling in love feels like - JVKE", src: "songs/this is what falling in love feels like [cGO6ZwrppDQ].mp3" },
+    { title: "this is what falling in love feels like - JVKE (slowed + reverb)", src: "songs/jvke - this is what falling in love feels like (slowed + reverb) [i_Z20iQK-Nw].mp3" },
+    { title: "Toby Fox - Finale (slowed)", src: "songs/Finale Slowed Down [31S7yOsw9Hg].mp3" }
 ];
 
 let currentTrackIndex = 0;
