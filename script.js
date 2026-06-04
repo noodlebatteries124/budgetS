@@ -64,7 +64,9 @@ const playlist = [
     { title: "Pretty Boy V3 || Aura monster", src: "songs/Subaru Climb the stairs [ RE：ZERO animation ]MMV- Pretty Boy V3 [J8WId0vbJ3I].mp3" },
     { title: "Propose - Naisho No Piercing || 9LanaCover", src: "songs/【MV】プロポーズ⧸ 9Lana cover [XPLkkdMFmco].mp3" },
     { title: "Naisho No Pierced || PJSK cover (Mizuki+Mafuyu+Luka) Propose", src: "songs/(Game Size)プロポーズ (Propose)(Mizuki+Mafuyu+Luka)[fTqHAI_bQ1E].mp3" },
-    { title: "yung kai - blue", src: "songs/yung kai - blue (official music video) [IpFX2vq8HKw].mp3" }
+    { title: "yung kai - blue", src: "songs/yung kai - blue (official music video) [IpFX2vq8HKw].mp3" },
+    { title: "[FULL VER] Hated by Life Itself. (命に嫌われている) - Yoisaki Kanade", src: "songs/[FULL VER] Hated by Life Itself. (命に嫌われている) - Yoisaki Kanade (Kan⧸Rom⧸Eng Lyrics) プロセカ [VTKu8OPVLZE].mp3" },
+    { title: "FULL VER】余花にみとれて (Yoka ni Mitorete) ⧸ 25時、ナイトコードで。 × MEIKO", src: "songs/【FULL VER】余花にみとれて (Yoka ni Mitorete) ⧸ 25時、ナイトコードで。 × MEIKO ⧸ (Kan⧸Rom⧸Eng) Lyrics [zxXzzeEGGdA].mp3" }
 ];
 
 let currentTrackIndex = 0;
