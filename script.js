@@ -58,7 +58,7 @@ const playlist = [
     { title: "this is what falling in love feels like - JVKE", src: "songs/this is what falling in love feels like [cGO6ZwrppDQ].mp3" },
     { title: "this is what falling in love feels like - JVKE (slowed + reverb)", src: "songs/jvke - this is what falling in love feels like (slowed + reverb) [i_Z20iQK-Nw].mp3" },
     { title: "Toby Fox - Finale (slowed)", src: "songs/Finale Slowed Down [31S7yOsw9Hg].mp3" },
-    { title: "Syko - #BrooklynBloodPop!", src: "songs/Syko - #BrooklynBloodPop! (prod. Duvaal) [Jmz8CXm8JLY].mp3" },
+    { title: "Syko - BrooklynBloodPop", src: "songs/Syko - #BrooklynBloodPop! (prod. Duvaal) [Jmz8CXm8JLY].mp3" },
     { title: "Itoshii hito he - Project Sekai", src: "songs/愛しい人へ [qoTXawTQfqA].mp3" },
     { title: "I Really Want to Stay at Your House", src: "songs/I Really Want to Stay at Your House [9B0yX0UIN9M].mp3" },
     { title: "Pretty Boy V3 || Aura monster", src: "songs/Subaru Climb the stairs [ RE：ZERO animation ]MMV- Pretty Boy V3 [J8WId0vbJ3I].mp3" },
