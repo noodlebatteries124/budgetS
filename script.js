@@ -69,7 +69,7 @@ const playlist = [
     { title: "FULL VER】余花にみとれて (Yoka ni Mitorete) ⧸ 25時、ナイトコードで。 × MEIKO", src: "songs/【FULL VER】余花にみとれて (Yoka ni Mitorete) ⧸ 25時、ナイトコードで。 × MEIKO ⧸ (Kan⧸Rom⧸Eng) Lyrics [zxXzzeEGGdA].mp3" },
     { title: "Thumb theme canto 9", src: "songs/Limbus Company OST - Canto IX Boss 1 Battle Theme 2 [W-BobfNM1tg].mp3" },
     { title: "6arelyhuman - Faster N Harder", src: "songs/6arelyhuman - Faster N Harder (Official Audio) [BTksETlbL8E].mp3" },
-    { title: "String Theory - vally.exe", src: "songs/【Herta Fansong】String Theory (Honkai： Star Rail) ⧸ vally.exe  #MultiverseVistas [84UfQLzYWws].mp3" }
+    { title: "String Theory - vally.exe", src: "songs/【Herta Fansong】String Theory (Honkai： Star Rail) ⧸ vally.exe  MultiverseVistas [84UfQLzYWws].mp3" }
 ];
 
 let currentTrackIndex = 0;
