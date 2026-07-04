@@ -25,7 +25,7 @@ const playlist = [
     { title: "Imposter Syndrome - Sidney Gish", src: "songs/Impostor Syndrome [GwSSrwryxN0].mp3" },
     { title: "Big Time Rush - Worldwide", src: "songs/Big Time Rush - Worldwide (Official Video) [2EDCpDXMowc].mp3" },
     { title: "R.I.P - Language of the Lost ft. Kasane Teto SV (SynthV Original Song)", src: "songs/R.I.P - Language of the Lost ft. Kasane Teto SV (SynthV Original Song) [1xEfMnXyGkA].mp3" },
-    { title: "Would You Fall In Love With Me Again - EPIC the musical", src: "songs/Would You Fall In Love With Me Again (but they overlap at the end) [bNs8vJnEbyY].mp3" },
+    { title: "(CUT VER.) Would You Fall In Love With Me Again - EPIC the musical", src: "songs/Would You Fall In Love With Me Again (but they overlap at the end) [bNs8vJnEbyY].mp3" },
     { title: "Hour girl (unc lei heng)", src: "songs/小时姑娘 - 愛殤 ｜ 清風過 曳燭光 獨舞無人欣賞｜ [動態歌詞 Lyric Video] [FFYPfn8sZ18].mp3" },
     { title: "張遠 - 嘉賓 (taxi vibe)", src: "songs/張遠 - 嘉賓【高音質｜動態歌詞Lyrics】♫『感謝你特別邀請，來見證你的愛情。』Zhang Yuan-Khách [jPzkNvWOcGc].mp3" },
     { title: "Avril Lavigne - Here's to Never Growing Up", src: "songs/Avril Lavigne - Here's to Never Growing Up (Official Video) [sXd2WxoOP5g].mp3" },
@@ -70,7 +70,10 @@ const playlist = [
     { title: "Thumb theme canto 9", src: "songs/Limbus Company OST - Canto IX Boss 1 Battle Theme 2 [W-BobfNM1tg].mp3" },
     { title: "6arelyhuman - Faster N Harder", src: "songs/6arelyhuman - Faster N Harder (Official Audio) [BTksETlbL8E].mp3" },
     { title: "String Theory - vally.exe", src: "songs/【Herta Fansong】String Theory (Honkai： Star Rail) ⧸ vally.exe  MultiverseVistas [84UfQLzYWws].mp3" },
-    { title: "[Limbus Company X ARKNIGHTS] Intervallo VI-EX Mayors theme", src: "songs/[Limbus Company X ARKNIGHTS] Intervallo VI-EX Boss 3 Battle Theme [GP5sDocmrqk].mp3" }
+    { title: "[Limbus Company X ARKNIGHTS] Intervallo VI-EX Mayors theme", src: "songs/[Limbus Company X ARKNIGHTS] Intervallo VI-EX Boss 3 Battle Theme [GP5sDocmrqk].mp3" },
+    { title: "If I could be a constellation", src: "songs/If I could be a constellation [-LwBbLa_Vhc].mp3" },
+    { title: "(FULL VER.) Jorge Rivera-Herrans, Anna Lea - Would You Fall In Love With Me Again", src: "songs/Jorge Rivera-Herrans, Anna Lea - Would You Fall In Love With Me Again (Lyrics) [k4MMkrXLX2g].mp3" },
+    { title: "Mili - SAIKAI [Limbus Company]", src: "songs/Mili - SAIKAI [Limbus Company] [h0djuhl97Kw].mp3" }
 ];
 
 let currentTrackIndex = 0;
