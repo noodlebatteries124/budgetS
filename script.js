@@ -74,7 +74,8 @@ const playlist = [
     { title: "If I could be a constellation", src: "songs/If I could be a constellation [-LwBbLa_Vhc].mp3" },
     { title: "(FULL VER.) Jorge Rivera-Herrans, Anna Lea - Would You Fall In Love With Me Again", src: "songs/Jorge Rivera-Herrans, Anna Lea - Would You Fall In Love With Me Again (Lyrics) [k4MMkrXLX2g].mp3" },
     { title: "Mili - SAIKAI [Limbus Company]", src: "songs/Mili - SAIKAI [Limbus Company] [h0djuhl97Kw].mp3" },
-    { title: "Flower Man (DELTARUNE Chapter 5 Soundtrack) - Toby Fox & @Cametek.CamelliaOfficial", src: "songs/34. Flower Man (DELTARUNE Chapter 5 Soundtrack) - Toby Fox & @Cametek.CamelliaOfficial [GWf9_qSrnOM].mp3" }
+    { title: "Flower Man (DELTARUNE Chapter 5 Soundtrack) - Toby Fox & @Cametek.CamelliaOfficial", src: "songs/34. Flower Man (DELTARUNE Chapter 5 Soundtrack) - Toby Fox & @Cametek.CamelliaOfficial [GWf9_qSrnOM].mp3" },
+    { title: "星降る海 Starry Sea", src: "songs/星降る海 [hqx09wf56PM].mp3" }
 ];
 
 let currentTrackIndex = 0;
