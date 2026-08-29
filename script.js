@@ -79,7 +79,10 @@ const playlist = [
     { title: "ECHO(full ver.)／東雲彰人(Shinonome Akito)×白石杏(Shiraishi An)｜Project Sekai", src: "songs/【プロセカ】ECHO(full ver.)／東雲彰人(Shinonome Akito)×白石杏(Shiraishi An)｜Project Sekai｜Color Coded Lyrics [l04FfoADnyw].mp3" },
     { title: "Torinoko City - 40mp (Covered by Yachiyo)", src: "songs/【歌ってみた】トリノコシティ – 40mP ⧸ covered by 月見ヤチヨ(cv.早見沙織) from 超かぐや姫！ [gsGjcLVI6X4].mp3" },
     { title: "Vs. Susie - Toby Fox", src: "songs/Vs. Susie [cGuDpoJNImA].mp3" },
-    { title: "Canto 9 - Callisto theme", src: "songs/Limbus Company OST - Canto IX Boss 3 Battle Theme 2 [BuzAgy_88HM].mp3" }
+    { title: "Canto 9 - Callisto theme", src: "songs/Limbus Company OST - Canto IX Boss 3 Battle Theme 2 [BuzAgy_88HM].mp3" },
+    { title: "夜に駆ける racing into the night (slowed)", src: "songs/夜に駆ける racing into the night - YOASOBI (𝙨𝙡𝙤𝙬𝙚𝙙 + 𝙧𝙚𝙫𝙚𝙧𝙗) [0vlah8mXCVo].mp3" },
+    { title: "M3 - Les Apollo", src: "songs/M3 [ckLrL9jOaPw].mp3" },
+    { title: "Cosmic Princess Kaguya! - Ray", src: "songs/Cosmic Princess Kaguya! Ending - Ray with Kan⧸Rom⧸En [IgBQNB7rb80].mp3" }
 ];
 
 let currentTrackIndex = 0;
