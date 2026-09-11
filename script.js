@@ -82,7 +82,12 @@ const playlist = [
     { title: "Canto 9 - Callisto theme", src: "songs/Limbus Company OST - Canto IX Boss 3 Battle Theme 2 [BuzAgy_88HM].mp3" },
     { title: "夜に駆ける racing into the night (slowed)", src: "songs/夜に駆ける racing into the night - YOASOBI (𝙨𝙡𝙤𝙬𝙚𝙙 + 𝙧𝙚𝙫𝙚𝙧𝙗) [0vlah8mXCVo].mp3" },
     { title: "M3 - Les Apollo", src: "songs/M3 [ckLrL9jOaPw].mp3" },
-    { title: "Cosmic Princess Kaguya! - Ray", src: "songs/Cosmic Princess Kaguya! Ending - Ray with Kan⧸Rom⧸En [IgBQNB7rb80].mp3" }
+    { title: "Cosmic Princess Kaguya! - Ray", src: "songs/Cosmic Princess Kaguya! Ending - Ray with Kan⧸Rom⧸En [IgBQNB7rb80].mp3" },
+    { title: "Anchor of Solitary Sea - Arknights Endfield", src: "songs/Anchor of Solitary Sea - Official English Lyrics [Arknights： Endfield Arcane Song Full] [cJ9SSuizRHs].mp3" },
+    { title: "For Your Name - Arknights Endfield", src: "songs/For Your Name - Official English Lyrics [Arknights： Endfield Arcane Song Full] [4nbeM1yw3C8].mp3" },
+    { title: "Mirairo Rider - Liino CN VA || Arknights Endfield", src: "songs/Mirairo Rider - Liino CN VA - Official Chinese Lyrics [Arknights： Endfield Liino EP Full] [0Bia3zestuc].mp3" },
+    { title: "Mirairo Rider - Liino JP VA || Arknights Endfield", src: "songs/Mirairo Rider - Liino JP VA - Official Japanese Lyrics [Arknights： Endfield Liino EP Full] [BXyCvUF-Mb8].mp3" },
+    { title: "Vermilion - Arknights Endfield", src: "songs/Vermilion - Official English Lyrics [Arknights： Endfield Companionship Celebration Image Song Full] [Z7mJOdRXsZA].mp3" }
 ];
 
 let currentTrackIndex = 0;
