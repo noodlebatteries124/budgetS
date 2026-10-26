@@ -87,7 +87,8 @@ const playlist = [
     { title: "For Your Name - Arknights Endfield", src: "songs/For Your Name - Official English Lyrics [Arknights： Endfield Arcane Song Full] [4nbeM1yw3C8].mp3" },
     { title: "Mirairo Rider - Liino CN VA || Arknights Endfield", src: "songs/Mirairo Rider - Liino CN VA - Official Chinese Lyrics [Arknights： Endfield Liino EP Full] [0Bia3zestuc].mp3" },
     { title: "Mirairo Rider - Liino JP VA || Arknights Endfield", src: "songs/Mirairo Rider - Liino JP VA - Official Japanese Lyrics [Arknights： Endfield Liino EP Full] [BXyCvUF-Mb8].mp3" },
-    { title: "Vermilion - Arknights Endfield", src: "songs/Vermilion - Official English Lyrics [Arknights： Endfield Companionship Celebration Image Song Full] [Z7mJOdRXsZA].mp3" }
+    { title: "Vermilion - Arknights Endfield", src: "songs/Vermilion - Official English Lyrics [Arknights： Endfield Companionship Celebration Image Song Full] [Z7mJOdRXsZA].mp3" },
+    { title: "Lemon (米津玄師) ⧸ haita cover", src: "songs/Lemon (米津玄師) ⧸ haita cover [8lvHtYSIf7c].mp3" }
 ];
 
 let currentTrackIndex = 0;
